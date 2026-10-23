@@ -1,3 +1,18 @@
+# Data (never commit the Kaggle files)
+data/*
+!data/.gitkeep
+
+# Experiment and model artefacts
+mlruns/
+mlartifacts/
+*.pkl
+*.parquet
+*.joblib
+
+# Secrets and local settings
+.env
+kaggle.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
